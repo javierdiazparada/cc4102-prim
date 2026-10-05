@@ -1,6 +1,6 @@
 # CC4102 - Tarea 1: Prim con colas binomiales y de Fibonacci
 
-Implementación mínima en C++20 del algoritmo de Prim usando dos colas de
+Implementación en C++20 del algoritmo de Prim usando dos colas de
 prioridad propias. El proyecto genera los grafos, ejecuta las cuatro series
 pedidas, verifica que ambos MST tengan el mismo peso y produce los doce
 gráficos requeridos.
@@ -81,9 +81,18 @@ Estimación de memoria solicitada:
 | Doce gráficos y promedios | `scripts/plot_results.py` |
 | Información del sistema | `scripts/system_info.ps1` |
 | Pruebas | `tests/test_main.cpp` |
-El pequeño oráculo Kruskal de las pruebas adapta el proceso de Union-Find de
-`cc4102-kruskal`; no se usa en los experimentos.
+| Informe | `Algoritmo de Prim.pdf` |
 
-Las colas binomial y de Fibonacci son implementaciones nuevas basadas en el
-pseudocódigo de la tarea. No se usa `std::priority_queue` ni una biblioteca de
+## Procedencia de código y procesos
+
+- El patrón de semilla reproducible y medición monotónica proviene del trabajo
+  previo `Splay-tree`.
+- La estructura del proyecto, pruebas y captura de sistema siguen el trabajo
+  previo `R-tree`.
+- El pequeño oráculo Kruskal de las pruebas adapta el proceso de Union-Find de
+  `Kruskral`; no se usa en los experimentos. Este procedimiento fue sacada de la tarea del Semestre de primavera del 2025 del cual también fui parte.
+- El método de generación del grafo proviene directamente del enunciado.
+
+Las colas binomial y de Fibonacci son implementaciones basadas en el
+pseudocódigo del enunciado. No se usa `std::priority_queue` ni una biblioteca de
 grafos.
