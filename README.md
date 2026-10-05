@@ -86,11 +86,11 @@ Estimación de memoria solicitada:
 ## Procedencia de código y procesos
 
 - El patrón de semilla reproducible y medición monotónica proviene del trabajo
-  previo `Splay-tree`.
+  previo `Splay-tree`. Esto proviene de la tarea 1 del semestre de Otoño del 2026 del cuál también fui parte.
 - La estructura del proyecto, pruebas y captura de sistema siguen el trabajo
-  previo `R-tree`.
+  previo `R-tree`. Esto proviene de la tarea 1 del semestre de Otoño del 2026 del cuál también fui parte.
 - El pequeño oráculo Kruskal de las pruebas adapta el proceso de Union-Find de
-  `Kruskral`; no se usa en los experimentos. Este procedimiento fue sacada de la tarea del Semestre de primavera del 2025 del cual también fui parte.
+  `Kruskral`; no se usa en los experimentos. Este procedimiento fue sacado de la tarea del Semestre de Otoño del 2025 del cual también fui parte.
 - El método de generación del grafo proviene directamente del enunciado.
 
 Las colas binomial y de Fibonacci son implementaciones basadas en el
